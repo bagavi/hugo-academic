@@ -27,7 +27,7 @@ subtitle = ""
   [content.filters]
     tag = ""
     category = ""
-    publication_type = ""
+    #publication_type = ""
     exclude_featured = false
   
 [design]
@@ -35,7 +35,7 @@ subtitle = ""
   #   1 = List
   #   2 = Compact
   #   3 = Card
-  #   4 = Ci2ation (publication only)
+  #   4 = Citation (publication only)
   view = 3
   
 [design.background]
@@ -67,5 +67,5 @@ subtitle = ""
 +++
 
 {{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+[Filter publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}

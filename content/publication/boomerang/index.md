@@ -29,7 +29,8 @@ tags:
 - Blockchain
 - Payment network
 - High performance
-- Algorithm
+- Method
+- Go
 featured: true
 
 links:

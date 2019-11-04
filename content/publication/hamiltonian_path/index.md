@@ -19,11 +19,10 @@ publishDate: "2019-10-11T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *Informs*
+publication: In *Operations Research*
+publication_short: In *Operations Research*
 
-abstract: . An optional shortened abstract.
-summary: We introduce the problem of hidden Hamiltonian cycle recovery, where there is an unknown Hamiltonian cycle in an n-vertex complete graph that needs to be inferred from noisy edge measurements. The measurements are independent and distributed according to $\calP_n$ for edges in the cycle and $\calQ_n$ otherwise. This formulation is motivated by a problem in genome assembly, where the goal is to order a set of contigs (genome subsequences) according to their positions on the genome using long-range linking measurements between the contigs. Computing the maximum likelihood estimate in this model reduces to a Traveling Salesman Problem (TSP). Despite the NP-hardness of TSP, we show that a simple linear programming (LP) relaxation, namely the fractional 2-factor (F2F) LP, recovers the hidden Hamiltonian cycle with high probability as n→∞ provided that αn−logn→∞, where is the Rényi divergence of order 12. This condition is information-theoretically optimal in the sense that, under mild distributional assumptions, αn≥(1+o(1))logn is necessary for any algorithm to succeed regardless of the computational cost. Departing from the usual proof techniques based on dual witness construction, the analysis relies on the combinatorial characterization (in particular, the half-integrality) of the extreme points of the F2F polytope. Represented as bicolored multi-graphs, these extreme points are further decomposed into simpler "blossom-type" structures for the large deviation analysis and counting arguments. Evaluation of the algorithm on real data shows improvements over existing approaches.
+abstract: We introduce the problem of hidden Hamiltonian cycle recovery, where there is an unknown Hamiltonian cycle in an n-vertex complete graph that needs to be inferred from noisy edge measurements. The measurements are independent and distributed according to $\calP_n$ for edges in the cycle and $\calQ_n$ otherwise. This formulation is motivated by a problem in genome assembly, where the goal is to order a set of contigs (genome subsequences) according to their positions on the genome using long-range linking measurements between the contigs. Computing the maximum likelihood estimate in this model reduces to a Traveling Salesman Problem (TSP). Despite the NP-hardness of TSP, we show that a simple linear programming (LP) relaxation, namely the fractional 2-factor (F2F) LP, recovers the hidden Hamiltonian cycle with high probability as n→∞ provided that αn−logn→∞, where is the Rényi divergence of order 12. This condition is information-theoretically optimal in the sense that, under mild distributional assumptions, αn≥(1+o(1))logn is necessary for any algorithm to succeed regardless of the computational cost. Departing from the usual proof techniques based on dual witness construction, the analysis relies on the combinatorial characterization (in particular, the half-integrality) of the extreme points of the F2F polytope. Represented as bicolored multi-graphs, these extreme points are further decomposed into simpler "blossom-type" structures for the large deviation analysis and counting arguments. Evaluation of the algorithm on real data shows improvements over existing approaches.
 
 # Summary. An optional shortened abstract.
 summary: Average case instance of the traveling salesman problem for a graph with V vertices and E edges can be solved in O(VE) time via LP.
@@ -32,6 +31,7 @@ tags:
 - Machine Learning
 - Algorithm
 - Analysis
+- Python
 featured: true
 
 links:

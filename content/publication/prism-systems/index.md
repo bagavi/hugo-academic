@@ -36,7 +36,6 @@ tags:
 - Blockchain
 - Security
 - Proof of Work
-- Algorithm
 - Rust
 
 featured: false
