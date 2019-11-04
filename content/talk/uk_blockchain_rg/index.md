@@ -2,13 +2,16 @@
 title: "Boomerang: Redundancy Improves Latency and Throughput in Payment Networks"
 event: 4th UK Blockchain Research Meetup
 
-location: Primalbase, London
+location: UK Blockchain Research Meetup, London
 address:
   city: London
   country: United Kingdom
 
-summary: An example talk using Academic's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+
+summary: Deconstructing the blockchain into its basic functionalities and systematically scaling up these to acheive optimal security, throughput and near optimal latency.
+
+
+abstract: In multi-path routing schemes for payment-channel networks, Alice transfers funds to Bob by splitting them into partial payments and routing them along multiple paths. Undisclosed channel balances and mismatched transaction fees cause delays and failures on some payment paths. For atomic transfer schemes, these straggling paths stall the whole transfer. We show that the latency of transfers reduces when redundant payment paths are added. This frees up liquidity in payment channels and hence increases the throughput of the network. We devise Boomerang, a generic technique to be used on top of multi-path routing schemes to construct redundant payment paths free of counterparty risk. In our experiments, applying Boomerang to a baseline routing scheme leads to 40% latency reduction and 2x throughput increase. We build on ideas from publicly verifiable secret sharing, such that Alice learns a secret of Bob iff Bob overdraws funds from the redundant paths. Funds are forwarded using Boomerang contracts, which allow Alice to revert the transfer iff she has learned Bob's secret. We implement the Boomerang contract in Bitcoin Script.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

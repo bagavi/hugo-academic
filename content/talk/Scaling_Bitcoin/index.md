@@ -1,14 +1,17 @@
 ---
 title: "Scaling Bitcoin by 10,000x"
-event: Scaling Bitcoin
+event: Yesod, Scaling Bitcoin
 
-location: Yesod, Tel Aviv Univ
+location: Scaling Bitcoin, Tel Aviv Univ
 address:
   city: Tel Aviv
   country: Israel
 
-summary: An example talk using Academic's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+
+summary: Explained and demonstrated a full-stack implementation of Prism in Rust which acheives '70,000' transactions per second with '40' second latency.
+
+
+abstract: Bitcoin is the first fully decentralized permissionless blockchain protocol and achieves a high level of security - the ledger it maintains has guaranteed liveness and consistency properties as long as the adversary has less compute power than the honest nodes. However, its throughput is only seven transactions per second and the confirmation latency can be up to hours. Prism is a new blockchain protocol which is designed to achieve a natural scaling of Bitcoin's performance while maintaining its full security guarantees. We present an implementation of Prism which achieves a throughput of seventy thousand transactions per second and confirmation latencies of tens of seconds
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

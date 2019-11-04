@@ -2,18 +2,21 @@
 title: "Prism: Deconstructing the Blockchain to Approach Physical Limits"
 event: ACM Conference on Computer and Communications Security
 
-location: ACM CCS,  London
+location: Hilton, ACM CCS
 address:
   city: London
   country: United Kingdom
 
-summary: An example talk using Academic's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Deconstructing the blockchain into its basic functionalities and systematically scaling up these to acheive optimal security, throughput and near optimal latency.
+
+
+abstract: Transaction throughput, confirmation latency and confirmation reliability are fundamental performance measures of any blockchain system in addition to its security. In a decentralized setting, these measures are limited by two underlying physical network attributes - communication capacity and speed-of-light propagation delay. Existing systems operate far away from these physical limits. In this work we introduce Prism, a new proof-of-work blockchain protocol, which can achieve '1') security against up to '50'% adversarial hashing power, '2') optimal throughput up to the capacity C of the network, '3') confirmation latency for honest transactions proportional to the propagation delay D, with confirmation error probability exponentially small in CD , '4') eventual total ordering of all transactions. Our approach to the design of this protocol is based on deconstructing the blockchain into its basic functionalities and systematically scaling up these functionalities to approach their physical limits.
+
 
 # Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
+# End time can optionally be hidden by prefixing the line with `#`.
 date: "2019-11-12T16:00:00Z"
-date_end: "2019-11-12T21:00:00Z"
+date_end: "2019-11-12T17:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

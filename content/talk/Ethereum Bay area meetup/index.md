@@ -2,13 +2,15 @@
 title: "Prism: Deconstructing the Blockchain to Approach Physical Limits"
 event: Ethereum Bay Area Meetup
 
-location: Ethereum Meetup, Palo Alto
+location: Ethereum Meeetup
 address:
-  city: Palo Alt
+  city: Palo Alto
   country: United States
 
-summary: An example talk using Academic's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Deconstructing the blockchain into its basic functionalities and systematically scaling up these to acheive optimal security, throughput and near optimal latency.
+
+
+abstract: Bitcoin is the first fully decentralized permissionless blockchain protocol and achieves a high level of security - the ledger it maintains has guaranteed liveness and consistency properties as long as the adversary has less compute power than the honest nodes. However, its throughput is only seven transactions per second and the confirmation latency can be up to hours. Prism is a new blockchain protocol which is designed to achieve a natural scaling of Bitcoin's performance while maintaining its full security guarantees. We present an implementation of Prism which achieves a throughput of seventy thousand transactions per second and confirmation latencies of tens of seconds
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

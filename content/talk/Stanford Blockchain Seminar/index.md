@@ -2,13 +2,16 @@
 title: "Prism: Operating Blockchains Near Physical Limits"
 event: The Stanford Blockchain Seminar
 
-location: Gates, Stanford
+location: Gates Building, Stanford
 address:
   city: Stanford
   country: United States
 
-summary: An example talk using Academic's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+
+summary: Deconstructing the blockchain into its basic functionalities and systematically scaling up these to acheive optimal security, throughput and near optimal latency.
+
+
+abstract: Transaction throughput, confirmation latency and confirmation reliability are fundamental performance measures of any blockchain system in addition to its security. In a decentralized setting, these measures are limited by two underlying physical network attributes - communication capacity and speed-of-light propagation delay. Existing systems operate far away from these physical limits. In this work we introduce Prism, a new proof-of-work blockchain protocol, which can achieve '1') security against up to '50'% adversarial hashing power, '2') optimal throughput up to the capacity C of the network, '3') confirmation latency for honest transactions proportional to the propagation delay D, with confirmation error probability exponentially small in CD , '4') eventual total ordering of all transactions. Our approach to the design of this protocol is based on deconstructing the blockchain into its basic functionalities and systematically scaling up these functionalities to approach their physical limits.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -23,7 +26,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'

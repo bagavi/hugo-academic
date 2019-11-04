@@ -10,20 +10,20 @@ authors:
 superuser: true
 
 # Role/position
-role: Doctoral Student
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
-- name: Electrical Engineering, Stanford University
+- name: Stanford University
   url: "https://www.stanford.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Blockchain Foundations
-- Machine Learning
-- Scalable Algorithm
+- Foundations and Fundamentals of Blockchain
+- Machine Learning for high dimensions
+- Practical and Scalable Algorithms
 
 education:
   courses:
@@ -33,7 +33,7 @@ education:
   - course: Masters in Statistics
     institution: Stanford University
     year: 2017
-  - course: B.Tech in Electrical Engineering
+  - course: Bachelors  in Electrical Engineering
     institution: Indian Institute of Technology Madras
     year: 2014
 
@@ -71,5 +71,6 @@ user_groups:
 - Visitors
 ---
 
-I am a graduate student in the Department of Electrical Engineering at Stanford advised by [Dr. David Tse](https://tselab.stanford.edu/).
-I am intersted in Blockchain and other decentralized technologies. I am also interested in high dimensional machine learning and developing scalable algorithms for machine learning.
+I am a final year graduate student at the [Information Systems Lab](http://isl.stanford.edu/) at [Stanford](https://stanford.edu), advised by [Dr. David Tse](https://tselab.stanford.edu/). I am interested in understanding the fundamentals of blockchain technology and its applications to *real world* problems. I like thinking about ways to decentralize the current highly centralized internet industry using open data markets, open source technology and peer-to-peer protocols. I also enjoy designing practical and scalable algorithms with provable guarantees in the field of high dimensional machine learning.
+
+I spent the second half of 2018 at Applied Protocol Research where I was fortunate to work with [Sreeram Kannan](https://infotheory.ece.uw.edu/), [Guilia Fanti](https://www.andrew.cmu.edu/user/gfanti/), [Sewoong Oh](https://homes.cs.washington.edu/~sewoong/) and [Pramod Viswanath](http://pramodv.ece.illinois.edu/). In 2017 summer, I worked at [Human longevity](https://www.humanlongevity.com/) with [Alena Harley](https://www.linkedin.com/in/alena-harley-7700832/) and [David Hackerman](http://heckerman.com/david/). Prior to Stanford, I spent one year as a Quantitative Analyst at Goldman Sachs. Before that, I graduated with a B.Tech in Electrical Engineering from the [IIT Madras](https://www.iitm.ac.in/) where I was advised by [Rahul Vaze](https://www.google.com/search?q=rahul+vaze&oq=rahul+vaze&aqs=chrome..69i57j0l2.1614j0j4&sourceid=chrome&ie=UTF-8), [Andrew Thangaraj](http://www.ee.iitm.ac.in/andrew/) and [Radhakrishna Ganti](http://www.ee.iitm.ac.in/~rganti/).
