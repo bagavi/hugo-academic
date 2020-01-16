@@ -6,7 +6,7 @@ authors:
 - Vasilis ntranos
 - Martin Zhang
 - David Tse
-date: "2017-11-01T00:00:00Z"
+date: "2019-11-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -33,11 +33,14 @@ tags:
 - Algorithm
 - Bandits
 - Python
-featured: false
+featured: true
 
 links:
-url_pdf: https://arxiv.org/pdf/1711.00817
-url_code: 'https://github.com/bagavi/Meddit'
+links:
+- name: AISTATS 2019
+  url: https://arxiv.org/pdf/1711.00817
+- name: Code
+  url: 'https://github.com/bagavi/Meddit'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''

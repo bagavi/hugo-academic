@@ -30,15 +30,15 @@ abstract: The Nakamoto longest chain protocol has served Bitcoin well in its dec
 summary: Longest chain based Proof-of-Stake Consensus protcol with provable security properties and same incentive propoerties as Bitcoin
 
 tags:
-- Blockchain
 - Security
 - Proof of Stake
 - Algorithm
 
-featured: true
+featured: false
 
 links:
-url_pdf: https://arxiv.org/pdf/1910.02218
+- name: Preprint
+  url: https://arxiv.org/pdf/1910.02218
 url_code: ''
 #url_dataset: '#'
 #url_poster: '#'

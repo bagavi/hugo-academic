@@ -6,7 +6,7 @@ authors:
 - David Tse
 - Giulia Fanti
 - Pramod Viswanath
-date: "2018-10-08T00:00:00Z"
+date: "2018-01-08T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -35,11 +35,14 @@ tags:
 - Proof of Work
 - Algorithm
 - Optimal
+- Analysis
 featured: true
 
 links:
-url_pdf: https://arxiv.org/pdf/1810.08092.pdf
-url_code: 'https://github.com/yangl1996/prism-rust'
+- name: ACM CCS 19
+  url: https://arxiv.org/pdf/1810.08092.pdf
+- name: Code
+  url: 'https://github.com/yangl1996/prism-rust'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''

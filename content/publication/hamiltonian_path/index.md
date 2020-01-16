@@ -35,8 +35,10 @@ tags:
 featured: true
 
 links:
-url_pdf: https://arxiv.org/pdf/1804.05436
-url_code: 'https://github.com/bagavi/HiC_LP'
+- name: Operations Research 2020
+  url: https://arxiv.org/pdf/1804.05436
+- name: Code
+  url: 'https://github.com/bagavi/HiC_LP'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''

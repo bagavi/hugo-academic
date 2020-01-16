@@ -28,14 +28,17 @@ summary: Contrastive principal component analysis discovers unqiue features of a
 
 tags:
 - Machine Learning
-- Method
+- Methods
 - Python
 featured: false
 
 links:
-url_pdf: https://www.nature.com/articles/s41467-018-04608-8
-url_arxiv: https://arxiv.org/pdf/1709.06716
-url_code: 'https://github.com/abidlabs/contrastive'
+- name: Nature Communication 2017
+  url: https://www.nature.com/articles/s41467-018-04608-8
+- name: Arxiv
+  url: https://arxiv.org/pdf/1709.06716
+- name: Code
+  url: 'https://github.com/abidlabs/contrastive'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''

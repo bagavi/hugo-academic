@@ -5,7 +5,7 @@ authors:
 - "**Vivek Bagaria**"
 - Joachim Neu
 - David Tse
-date: "2019-10-01T00:00:00Z"
+date: "2018-10-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -26,16 +26,17 @@ abstract: In multi-path routing schemes for payment-channel networks, Alice tran
 summary: Undisclosed channel balances and mismatched transaction fees cause failures on payment paths. Boomerang is a framework to add risk-free redundant payment paths to improve the latency and throughput of the system by 2x.
 
 tags:
-- Blockchain
 - Payment network
 - High performance
-- Method
+- Protocol
 - Go
 featured: true
 
 links:
-url_pdf: https://arxiv.org/pdf/1910.01834
-url_code: 'https://github.com/tse-group/boomerang'
+- name: Financial Cryptography' 20
+  url: https://arxiv.org/pdf/1910.01834
+- name: Code
+  url: 'https://github.com/tse-group/boomerang'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''

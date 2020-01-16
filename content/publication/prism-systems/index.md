@@ -33,16 +33,17 @@ summary: Full-stack implementation of Prism in Rust acheives '70,000' transactio
 
 
 tags:
-- Blockchain
+- Scalable systems
 - Security
-- Proof of Work
 - Rust
 
 featured: false
 
 links:
-url_pdf: https://arxiv.org/pdf/1909.11261
-url_code: 'https://github.com/yangl1996/prism-rust'
+- name: Preprint
+  url:  https://arxiv.org/pdf/1909.11261
+- name: Code
+  url: 'https://github.com/yangl1996/prism-rust'
 #url_dataset: '#'
 #url_poster: '#'
 #url_project: ''
